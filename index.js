@@ -17,7 +17,7 @@ db.connect((err) => {
   if (err) {
     throw err;
   }
-  //   console.log("Terhubung ke database MySQL");
+  console.log("Terhubung ke database MySQL");
 });
 
 app.use(bodyParser.json());
